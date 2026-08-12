@@ -1,4 +1,4 @@
-/*	
+/*
 BMI
 Starvation	<15
 Anorexic	15.1 to 17.5
@@ -11,42 +11,42 @@ Morbidity Obese	40.0 above
 
 #include <stdio.h>
 
-int main ()
+int main()
 {
-    float h,w,BMI;
+    float h, w, BMI;
     printf("Enter your Height in meter:");
-    scanf ("%f",&h);
+    scanf("%f", &h);
     printf("Enter your Weight in Kilogram:");
-    scanf ("%f",&w);
-    BMI = w/(h*h);
-    
-    if (BMI<=15.0 )
+    scanf("%f", &w);
+    BMI = w / (h * h);
+
+    if (BMI <= 15.0)
     {
-        printf ("Starvation\n");
+        printf("Starvation\n");
     }
-    else if (BMI>15.0 && BMI<= 17.5)
+    else if (BMI > 15.0 && BMI <= 17.5)
     {
-        printf ("Anorexic\n");
+        printf("Anorexic\n");
     }
-    else if (BMI>=17.6 && BMI<= 18.5)
+    else if (BMI >= 17.6 && BMI <= 18.5)
     {
-        printf ("Underweight\n");
+        printf("Underweight\n");
     }
-    else if (BMI>=18.6 && BMI<= 24.9)
+    else if (BMI >= 18.6 && BMI <= 24.9)
     {
-        printf ("Ideal\n");
+        printf("Ideal\n");
     }
-    else if (BMI>=25 && BMI<= 29.9)
+    else if (BMI >= 25 && BMI <= 29.9)
     {
-        printf ("Overweight\n");
+        printf("Overweight\n");
     }
-    else if (BMI>=30 && BMI<= 39.9)
+    else if (BMI >= 30 && BMI <= 39.9)
     {
-        printf ("Obese\n");
+        printf("Obese\n");
     }
-    else if (BMI>=40.0)
+    else if (BMI >= 40.0)
     {
-        printf ("Morbidity\n");
+        printf("Morbidity\n");
     }
 
     return 0;
