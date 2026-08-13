@@ -2,7 +2,7 @@
 
 int main()
 {
-    float marks1, marks2, marks3, average;
+    float marks1, marks2, marks3, marks4, marks5, average;
 
     printf("Enter the marks of Subject 1:");
     scanf("%f", &marks1);
@@ -13,13 +13,19 @@ int main()
     printf("Enter the marks of Subject 3:");
     scanf("%f", &marks3);
 
-    average = (marks1 + marks2 + marks3) / 3;
+    printf("Enter the marks of Subject 4:");
+    scanf("%f", &marks4);
 
-    printf("Your marks are %.2f %.2f %.2f\n", marks1, marks2, marks3);
+    printf("Enter the marks of Subject 5:");
+    scanf("%f", &marks5);
+
+    average = (marks1 + marks2 + marks3 + marks4 + marks5) / 5;
+
+    printf("Your marks are %.2f %.2f %.2f %.2f %.2f \n", marks1, marks2, marks3, marks4, marks5);
 
     printf("Your average marks are %.2f\n", average);
 
-    if (marks1 < 33 || marks2 < 33 || marks3 < 33)
+    if (marks1 < 33 || marks2 < 33 || marks3 < 33 || marks4 < 33 || marks5 < 33)
     {
         printf("You have failed in indivisual subject\n");
     }
