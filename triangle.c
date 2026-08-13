@@ -1,14 +1,24 @@
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
     int a, b, c;
+    float s, area;
+
     printf("Enter the lenght of a:");
     scanf("%d", &a);
+
     printf("Enter the lenght of b:");
     scanf("%d", &b);
+
     printf("Enter the lenght of c:");
     scanf("%d", &c);
+
+    s = (a + b + c) / 2.0;
+    area = sqrt(s * (s - a) * (s - b) * (s - c));
+
+    printf("The area of the triangle is %.2f\n", area);
 
     if (a == b && b == c)
     {
