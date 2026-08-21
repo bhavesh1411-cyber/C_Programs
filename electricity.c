@@ -30,5 +30,6 @@ int main()
 
     printf("Fine: Rs. %d\n", fine);
 
+    
     return 0;
 }
