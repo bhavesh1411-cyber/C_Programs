@@ -26,6 +26,7 @@ int main()
 
     printf("Your average marks are %.2f\n", average);
 
+
     if (marks1 < 33)
         failcount++;
     if (marks2 < 33)
@@ -37,10 +38,12 @@ int main()
     if (marks5 < 33)
         failcount++;
 
+
     if (failcount >= 2)
     {
         printf("You have failed in class and must reappear in all subjects\n");
     }
+
 
     else if (failcount == 1)
     {
@@ -56,6 +59,7 @@ int main()
         if (marks5 < 33)
             printf("Subject 5\n");
     }
+
 
     else
     {
@@ -87,4 +91,5 @@ int main()
     }
 
     return 0;
+    
 }
