@@ -2,8 +2,8 @@
 
 void display()
 {
-    auto int x=1;
-    printf("%d\n",x);
+    auto int x = 1;
+    printf("%d\n", x);
     x++;
 };
 
