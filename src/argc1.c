@@ -21,5 +21,6 @@ int main(int argc, char *argv[])
 
     printf("Sum = %.2f\n", sum);
     printf("Average = %.2f\n", avg);
+    
     return 0;
 }
